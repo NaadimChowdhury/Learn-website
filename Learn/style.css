@@ -1,0 +1,489 @@
+@font-face{
+	src: url(fonts/Cairo-Black.ttf);
+	font-family: Cairo-Black;
+}
+@font-face{
+	src: url(fonts/Montserrat-Bold.ttf);
+	font-family: Montserrat-Bold;
+}
+@font-face{
+	src: url(fonts/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+@font-face{
+	src: url(fonts/WorkSans-Bold.ttf);
+	font-family: WorkSans-Bold;
+}
+@font-face{
+	src: url(fonts/WorkSans-Regular.ttf);
+	font-family: WorkSans-Regular;
+}
+/***************************************
+	Font-style End Here
+***************************************/
+h1{
+	font-family: Montserrat-Bold;
+	color:  #252c3a;
+	font-size: 40px;
+	text-transform: capitalize;
+}
+/***************************************
+	Header-are start Here
+***************************************/
+.header-navbar-are{
+	background: transparent;
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+}
+.header-logo{
+	width: 35% !important;
+  margin-left: 80px;
+}
+.header-menu-bar ul{
+	margin: 0;
+	padding: 0;
+}
+.header-menu-bar ul li a{
+	text-transform: capitalize;
+	font-family: WorkSans-Regular;
+	color: black !important;
+	padding-bottom: 0;
+	margin-left: 17px;
+	background-image: linear-gradient( #ffc178, #ffc178);
+	background-size: 0% 2px;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	transition: .3s linear;
+}
+.header-menu-bar ul li:hover a{
+	background-size: 100% 2px;
+	color: #ffc178 !important;
+}
+.study-active{
+	color: red;
+	font-family: WorkSans-Regular !important;
+	font-weight: 600;
+}
+
+.header-apply-btn {
+	margin-left: 20px;
+}
+.header-apply-btn button{
+	border: none;
+}
+.header-apply-btn  a button{
+	text-transform: capitalize;
+	font-family: WorkSans-Regular;
+	color: #ffc178;
+	padding: 10px 20px;
+	border-radius: 50px;
+	background: #fff;
+	transition: .3s ease-in-out; 
+}
+.header-apply-btn a:hover button{
+	background: #ffc178;
+	color: #fff;
+}
+/***************************************
+	Header-navbar are end Here
+***************************************/
+
+/***************************************
+	slider-area end Here
+***************************************/
+.slider-area{
+	background: url(img/header-slider-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 250px 0;
+	overflow: hidden;
+}
+.slider-title{
+	margin-top: -100px;
+	margin-left: 100px;
+}
+.slider-thumb h1{
+  color:  #ffc178;
+	line-height: 55px;
+	text-transform: lowercase;
+	font-size: 35px;
+	width: 52%;
+}
+.slider-thumb p{
+	font-family: WorkSans-Regular;
+	font-size: 16px;
+	color: #333333;
+	width: 46%;
+	margin-bottom: 25px;
+}
+.slider-sub-btn button{
+	border:none;
+}
+.slider-sub-btn a button {
+	text-transform: capitalize;
+	font-family: WorkSans-Regular;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 50px;
+	background: #ffc178;
+	color: #fff;
+	
+}
+.slider-sub-btn a:hover button{
+	background: #f39c12;
+}
+/***************************************
+	slider-area end Here
+***************************************/
+/***************************************
+	department-area start Here
+***************************************/
+.department-area{
+	
+}
+.our-department-area{
+	padding-top: 40px;
+}
+.dp-title p{
+	width: 55%;
+	margin: auto;
+	font-family: WorkSans-Regular;
+	margin-top: 26px;
+	margin-bottom: 70px;
+	color: #5a6e79;
+}
+.edu-box-img {
+	position: relative;
+}
+.edu-box-img img{
+	width: 100%;
+	
+}
+.online-edu-thumb {
+	position: absolute;
+  left: 50px;
+	bottom: 50px;
+	
+}
+.online-edu-thumb h4{
+	text-transform: capitalize;
+	font-family: WorkSans-Bold;
+	font-size: 30px;
+	color: #fff;
+}
+/***************************************
+	department-area end Here
+***************************************/
+/***************************************
+	limitless-learning-area start here
+***************************************/
+.limitless-learning-area{
+	background: url(img/round-shape.png);
+	background-repeat: no-repeat;
+	background-size:40%;
+	padding-top: 130px;
+}
+
+.lmt-learning-img{
+	
+}
+.lmt-learning-img img{
+	width: 100%;
+}
+.limitless-learning-thumb-title h1{
+	margin-bottom: 38px
+}
+.limitless-learning-thumb-title p{
+	font-family: WorkSans-Regular;
+	color: #5a6e79;
+}
+.our-work-details{
+	display: inline-block;
+	margin: 0 60px;
+	margin-top: 30px;
+	margin-left: 0;
+}
+.our-work-details h2{
+	font-family: Montserrat-Bold;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+.our-work-details small{
+	text-transform: capitalize;
+	font-weight: 100;
+	font-size: 20px;
+}
+/***************************************
+	limitless-learning-area end here
+***************************************/
+/***************************************
+	around-the-univercity-area start here
+***************************************/
+.around-the-univercity-area{
+	background: url(img/round-right-shape.png);
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 130% 0%;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	
+}
+.univercity-title{
+	text-align: center;
+	margin-bottom: 70px;
+	
+}
+/** services box area **/
+.our-services-area{
+	box-shadow: 0px 5px 15px #eee;
+	border-radius: 3px;
+	margin-bottom: 30px;
+	transition: .4s ease-in-out;
+  cursor: pointer;
+}
+.our-services-area:hover{
+	transform: translateY(-6px);
+}
+.service-img img{
+	width: 100%;
+}
+.services-details{
+	margin-left: 12px;
+}
+.services-details h6{
+	font-family: WorkSans-Regular;
+	font-weight: bold;
+	margin-top: 25px;
+	font-size: 15px;
+	margin-bottom: 0;
+	color: #252c3a;
+}
+.services-details h6:hover{
+	text-decoration: underline #ffd3a3 1px;
+	color: #ffd3a3;
+}
+.services-details small{
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #77868f;	
+}
+.services-details p{
+	color: #5a6e79;
+	padding-bottom: 20px;
+}
+.services-details p:hover{
+	text-decoration: underline #5a6e79;
+}
+/***************************************
+	around-the-univercity-area end here
+***************************************/
+/***************************************
+	footer-area start here
+***************************************/
+.footer-area{
+	background-color: #252c3a;
+	padding: 50px 0;
+}
+/*** EDUMODO area start here ***/
+.user-graduate-icon{
+	float: left;
+}
+.user-graduate-icon span i{
+	color: #fff;
+	font-size: 30px;
+}
+
+.EDUMODO-title{
+	overflow: hidden
+}
+.EDUMODO-title h1{
+	font-family: Cairo-Black;
+	color: #fff;
+	font-size: 30px;
+	margin-left: 2px;
+	margin-bottom: -10px;
+}
+.EDUMODO-title small{
+	font-family: Roboto-Regular;
+	color: #FFF;
+	font-size: 11px;
+}
+.EDUMODO-details{
+	margin-top: 25px;
+}
+.EDUMODO-details p{
+	color: #64656a;
+	font-family: Roboto-Regular;
+	font-size: 13.55px;
+}
+.EDUMODO-details hr{
+	background-color: #64656a;
+}
+.EDUMODO-details ul li{
+	margin-left: 13px;
+}
+.EDUMODO-details ul li a i{
+	color: #4a4a4a;
+	font-size: 22px;
+	transition: .2s ease-in-out;
+}
+.EDUMODO-details ul li a:hover i{
+  color: #0089fd;
+}
+/*** EDUMODO area start here ***/
+
+.footer-header-info-title h5{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Roboto-Regular;
+	font-size: 14px;
+}
+.featured-and-learning {
+	margin-top: 55px;
+}
+.featured-and-learning p{
+	color: #64656a;
+	font-family: Roboto-Regular;
+	font-size: 14px;
+}
+.featured-and-learning small{
+	font-size: 10px;
+	text-transform: capitalize;
+	color: #4a4a4a;
+}
+.suppor-form{
+	margin-top: 55px;
+}
+.suppor-form p{
+	font-family: Roboto-Regular;
+	color: #64656a;
+	font-size: 12px;
+}
+.suppor-form input{
+	width: 60%;
+	font-size: 12px;
+	padding: 5px 10px;
+}
+.suppor-form button{
+	border: none;
+	text-transform: uppercase;
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	background: #ffc178;
+	padding: 7px 8px;
+}
+.suppor-form:hover button{
+	background: #f7b731;
+}
+/***************************************
+	footer-area end here
+***************************************/
+/***************************************
+	Responsive area start here
+***************************************/
+
+@media all and ( max-width: 768px){
+	.header-logo{
+		margin-left: 0;
+		width: 70%!important;
+	}
+
+	.nav-bar-area{
+		background: #FFF9F3;
+		z-index: 9;
+	}
+	.header-menu-bar ul li a{
+			background: none;
+}
+	.header-apply-btn {
+	 margin-top: 10px;
+	 margin-left: 0;
+}
+/*********************************
+	header-navbar- resposive area end
+**********************************/
+	.slider-area{
+		background-position: center;
+	}
+	.slider-title{
+		width: 100%;
+		margin-left: 0;
+	}
+	.slider-thumb h1{
+		width: 100%;
+	}
+	.slider-thumb p{
+		width: 100%;
+	}
+/*********************************
+	slider- resposive area end
+**********************************/
+	
+	.dp-title p{
+		width: 100%;
+	}
+	.online-edu-thumb {
+		left: 32px;  
+}
+	.edu-box-img{
+		margin-bottom: 15px;
+	}
+	.online-edu-thumb h4{
+		font-size: 20px;
+	}
+/*** end our dp resposive area ***/
+	
+	.limitless-learning-area{
+		background-size: 75%;
+}
+	.lmt-learning-img{
+		margin-bottom: 20px;
+	}
+/***  end limitless-learning resposive area ***/
+	.around-the-univercity-area{
+		background: none;
+	
+}
+	/***  end around-the-univercity resposive area ***/
+}
+
+
+@media all and ( max-width: 576px){
+		.slider-area{
+			background-position: center;
+			background-size: cover;
+}
+/*********************************
+	slider- resposive area end
+**********************************/
+  	.online-edu-thumb{
+			width: 100%;
+		  height: auto;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			left: 0;
+
+}
+	.online-edu-thumb h4{
+		font-size: 30px;
+	}
+	/*** end our dp resposive area ***/
+	.limitless-learning-area{
+		background-size: 85%;
+		padding-top: 100px;
+}
+/*** limitless-learning-area ***/
+	.featured-and-learning {
+	   margin-top: 22px;
+		margin-bottom: 25px;
+}
+	.featured-and-learning p{
+		margin-bottom: 5px;
+	}
+	.suppor-form{
+		margin-top: 22px;
+	}
+}
